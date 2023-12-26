@@ -1,0 +1,19 @@
+.popular-li-item {
+  padding: 5px;
+}
+
+.popular-poster {
+  height: 100px;
+  width: 90px;
+  border-radius: 8px;
+}
+@media screen and (min-width: 768px) {
+  .popular-poster {
+    height: 250px;
+    width: 180px;
+    border-radius: 8px;
+  }
+  .popular-li-item {
+    padding: 10px;
+  }
+}
